@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary        = 'Incredibly useful categories for any xCode project'
   s.license 	   = 'MIT'
   s.description    = 'Really useful categories to use in every xCode project on UIView, UIImage, NSDate, NSDateFormatter, etc'
-  s.homepage       = 'https://github.com/BobDG/BDGCategories'
+  s.homepage       = 'https://github.com/officeapp/BDGCategories'
   s.authors        = {'Bob de Graaf' => 'graafict@gmail.com'}
-  s.source         = { :git => 'https://github.com/BobDG/BDGCategories.git', :tag => s.version.to_s }
+  s.source         = { :git => 'https://github.com/officeapp/BDGCategories.git', :tag => s.version.to_s }
   s.source_files   = 'BDGCategories/**/*.{h,m}'
   s.frameworks     = 'Accelerate'
  s.platform       	= :ios, '8.0'
